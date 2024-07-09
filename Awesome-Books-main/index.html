@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>BOOK LIBRARY</title>
+  </head>
+  <body>
+    <header>
+      <h1>BOOK LIBRARY</h1>
+      <div class="background-image">
+        <img src="images.jpeg" alt="background images">
+    </div>
+      <nav>
+        <a href="#book" class="list active">List</a>
+        <a href="#form" class="add-new">Add new</a>
+        <a href="#contact" class="contact">Contact</a>
+      </nav>
+    </header>
+    <div class="date"></div>
+
+    <section id="books">
+      <h2>BOOK LIBRARY</h2>
+      <div class="all-books"></div>
+    </section>
+
+    <section class="hidden" id="form">
+      <form class="new-book">
+        <span class="successMsg transparent">Awesome Book Added!</span>
+        <h2>Add a new awesome book</h2>
+        <input type="text" placeholder="Title" class="title" />
+        <input type="text" placeholder="Author" class="author" />
+        <button type="submit" class="add">Add</button>
+      </form>
+    </section>
+
+    <section id="contact" class="hidden">
+      <h2>Contact Information</h2>
+      <p>
+        Do you have any questions or you just want to say "Hello"? <br />
+        You can reach out to us!
+      </p>
+      <ul>
+        <li>Our email: mail@gmail.com</li>
+        <li>Our phone number: 1234567890</li>
+        <li>Our address: Streetname 22. 84503 City, Country</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Copyright ...</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
